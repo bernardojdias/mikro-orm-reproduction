@@ -8,9 +8,9 @@ export class SaAgendamentos {
 	@Property({ length: 150, default: "0" })
 	name!: string & Opt;
 
-	@Property({ defaultRaw: "CURRENT_TIMESTAMP" })
+	@Property({ length: 0, defaultRaw: "CURRENT_TIMESTAMP" })
 	dateCreate!: Date & Opt;
 
-	@Property({ defaultRaw: "CURRENT_TIMESTAMP" })
+	@Property({ length: 0, defaultRaw: "CURRENT_TIMESTAMP" })
 	dateUpdate!: Date & Opt;
 }
