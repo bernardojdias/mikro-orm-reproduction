@@ -1,0 +1,38 @@
+{
+	"name": "@mikro-orm/reproduction",
+	"private": true,
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"start": "jest",
+		"test": "jest",
+		"migration:initial": "mikro-orm migration:create --initial",
+		"migration:create": "mikro-orm migration:create",
+		"migration:up": "mikro-orm migration:up",
+		"mikro-orm:generate-entitities": "mikro-orm generate-entities -s -p ./src/entities"
+	},
+	"author": "Martin Adamek",
+	"license": "MIT",
+	"dependencies": {
+		"@mikro-orm/cli": "next",
+		"@mikro-orm/core": "next",
+		"@mikro-orm/entity-generator": "next",
+		"@mikro-orm/migrations": "next",
+		"@mikro-orm/mysql": "next",
+		"dotenv": "^16.4.4",
+		"reflect-metadata": "^0.1.13"
+	},
+	"devDependencies": {
+		"@types/jest": "^29.5.8",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.1.1",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.2.2"
+	},
+	"mikro-orm": {
+		"useTsNode": true,
+		"tsConfigPath": "./tsconfig.json",
+		"configPaths": ["./src/mikro-orm.config.ts"]
+	}
+}
