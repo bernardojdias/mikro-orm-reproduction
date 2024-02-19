@@ -6,16 +6,11 @@
 	"scripts": {
 		"build": "tsc",
 		"start": "jest",
-		"test": "jest",
-		"migration:initial": "mikro-orm migration:create --initial",
-		"migration:create": "mikro-orm migration:create",
-		"migration:up": "mikro-orm migration:up",
-		"mikro-orm:generate-entitities": "mikro-orm generate-entities -s -p ./src/entities"
+		"test": "jest"
 	},
 	"author": "Martin Adamek",
 	"license": "MIT",
 	"dependencies": {
-		"@mikro-orm/cli": "6.1.4",
 		"@mikro-orm/core": "6.1.4",
 		"@mikro-orm/entity-generator": "6.1.4",
 		"@mikro-orm/migrations": "6.1.4",
@@ -29,10 +24,5 @@
 		"ts-jest": "^29.1.1",
 		"ts-node": "^10.9.2",
 		"typescript": "^5.2.2"
-	},
-	"mikro-orm": {
-		"useTsNode": true,
-		"tsConfigPath": "./tsconfig.json",
-		"configPaths": ["./src/mikro-orm.config.ts"]
 	}
 }

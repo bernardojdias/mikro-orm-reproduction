@@ -5,3 +5,6 @@ dist
 temp
 package-lock.json
 .env
+
+src/error-migrations/*
+src/migrations/*
