@@ -561,63 +561,63 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@mikro-orm/cli@next":
-  version "6.1.5-dev.0"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/cli/-/cli-6.1.5-dev.0.tgz#1e95a958884f6101749494d25dbe653007e7963f"
-  integrity sha512-KghLHgmmqgwDlTE98UGZOKzzMw5qSLTORlt7CxcsoKTjdPCh1wBiIARxATFcp84+b/2qJz7kXr7pCNY4KI1N0Q==
+"@mikro-orm/cli@6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/cli/-/cli-6.1.4.tgz#6c2f14e4b65be428cb7113db6bd2e211e531f838"
+  integrity sha512-oH8/0R3hg5Ebm1KBiyddayy/6P3QKleneCwKUhBEGHp9PxpLllWrVkVFV9NNj3pSzpVcAhHzr6V1WckPJoSWDg==
   dependencies:
     "@jercle/yargonaut" "1.1.5"
-    "@mikro-orm/core" "6.1.5-dev.0"
-    "@mikro-orm/knex" "6.1.5-dev.0"
+    "@mikro-orm/core" "6.1.4"
+    "@mikro-orm/knex" "6.1.4"
     fs-extra "11.2.0"
     tsconfig-paths "4.2.0"
     yargs "17.7.2"
 
-"@mikro-orm/core@6.1.5-dev.0", "@mikro-orm/core@next":
-  version "6.1.5-dev.0"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/core/-/core-6.1.5-dev.0.tgz#952ad9a64c5c88c6bc4e8f2ca1e8d902aebd8181"
-  integrity sha512-4bgM04DZs4jix/IiYr5bZoAlihl3VNJ8yQ/kdlYwHUo8NVPRIsF7pkVo7Twtv8SG+TdFtyP3iKnpmqQYWh+tsA==
+"@mikro-orm/core@6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/core/-/core-6.1.4.tgz#7b2530547216fd219183397073037695498635c9"
+  integrity sha512-cgLxe2PDW0ry8IlrqwaVmN3lmVx1KGc1l4PHBYyXu0Zw9WmDGuCjAqUkE3NPg7d9aPzGGMolWPhk8D5w67BUAw==
   dependencies:
     dataloader "2.2.2"
     dotenv "16.4.4"
     esprima "4.0.1"
     fs-extra "11.2.0"
     globby "11.1.0"
-    mikro-orm "6.1.5-dev.0"
+    mikro-orm "6.1.4"
     reflect-metadata "0.2.1"
 
-"@mikro-orm/entity-generator@next":
-  version "6.1.5-dev.0"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/entity-generator/-/entity-generator-6.1.5-dev.0.tgz#79adeb0d762a59b34bacf7f04282399814811777"
-  integrity sha512-QcO/xU0eOooS16ffiwp/hfRZgVOyp1zC/j/sa7KCojXdOnyUV30llWZveHOgmbLYrfzYMFp153N24zoLxmQQLw==
+"@mikro-orm/entity-generator@6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/entity-generator/-/entity-generator-6.1.4.tgz#18a2b293244665b34db7da10d048551ab9ac2725"
+  integrity sha512-scTc0cUdaBHRU4lfF+O4CqALhr2waIjIIhFIEOfnsS2+lJaX0kHnP3WhLuYLBkNf+sTREdrOhCDb/BiQlJj16A==
   dependencies:
-    "@mikro-orm/knex" "6.1.5-dev.0"
+    "@mikro-orm/knex" "6.1.4"
     fs-extra "11.2.0"
 
-"@mikro-orm/knex@6.1.5-dev.0":
-  version "6.1.5-dev.0"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/knex/-/knex-6.1.5-dev.0.tgz#00b17970ea0e92b0ad1dff6814937565a0ede5ff"
-  integrity sha512-pIeMCE/dQONDIfpBuYIrlOa3U9SKSLr9VbHz/VZnDLT8T+z51gSLKAifgX1h6jNgU3BpPNuyXGZu7C/YYO9gZQ==
+"@mikro-orm/knex@6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/knex/-/knex-6.1.4.tgz#dc77b64225aca8be422cdcbde77fbf4c01629a53"
+  integrity sha512-v1fWuvBWkZZ/PhvoA+k9+dAbYStG8UjmQy722bnzzI3e9WSHkEDYWeIJEzcuB3kss0YyeW4Yj26XUqILoKKcYQ==
   dependencies:
     fs-extra "11.2.0"
     knex "3.1.0"
     sqlstring "2.3.3"
 
-"@mikro-orm/migrations@next":
-  version "6.1.5-dev.0"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/migrations/-/migrations-6.1.5-dev.0.tgz#79a5b06e955a72dee7a527e6b9d02085d7a976e0"
-  integrity sha512-fWkz/qAv3xdJpcSZOOx/8IZJrEeaJhw6zaQo8+WFhqe4Xm+TxcsbMmB6oUlQ0G8EMWudXbKIaG9NiekOubIctQ==
+"@mikro-orm/migrations@6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/migrations/-/migrations-6.1.4.tgz#27b6054d6bf046457e4a91483324a31e65c997df"
+  integrity sha512-zYz8/h18JvRA01wwOKGiVCmnExdiz+/r2HTrxc8LCm8nH+orDbd/1FjTEpfSIuYGMqxsqUpBdxxzjd9fr68cmg==
   dependencies:
-    "@mikro-orm/knex" "6.1.5-dev.0"
+    "@mikro-orm/knex" "6.1.4"
     fs-extra "11.2.0"
     umzug "3.7.0"
 
-"@mikro-orm/mysql@next":
-  version "6.1.5-dev.0"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/mysql/-/mysql-6.1.5-dev.0.tgz#33a3749e9a2af3d076a684de266fab85f93f3f3c"
-  integrity sha512-8kIfDYyyQccf4JDKrs/ks7YX9ZsFBXsEBN0wavY+0BwvdtJ34qi2W4lptFS567U/Gs9xPi29H6pDHiy2waBtwA==
+"@mikro-orm/mysql@6.1.4":
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/mysql/-/mysql-6.1.4.tgz#7930f185d70a7420bdf78d542593cef607d6ce0a"
+  integrity sha512-ijKHSjbbpvPWUZzJYuaXV/lmiZpvagaORAZdyeFghnK50F0ynDAaWjZr5CTIatFWGDtK6IoFFxcTMY00FhcGmg==
   dependencies:
-    "@mikro-orm/knex" "6.1.5-dev.0"
+    "@mikro-orm/knex" "6.1.4"
     mysql2 "3.9.1"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -2095,10 +2095,10 @@ micromatch@^4.0.4:
     braces "^3.0.2"
     picomatch "^2.3.1"
 
-mikro-orm@6.1.5-dev.0:
-  version "6.1.5-dev.0"
-  resolved "https://registry.yarnpkg.com/mikro-orm/-/mikro-orm-6.1.5-dev.0.tgz#7f88d5abb8d83363c6506b0a9dc29322d8eed71e"
-  integrity sha512-1K7dTWRSiFxo9FJkfHFZrabWN2lRUgbhrDJ/P0bhDXHvopdSqEs2etV75A7P/yyldz3+yPh66AYmJ2LcAxYqpA==
+mikro-orm@6.1.4:
+  version "6.1.4"
+  resolved "https://registry.yarnpkg.com/mikro-orm/-/mikro-orm-6.1.4.tgz#744a94b41d0bf3c8125e38e39fbf549e04bdbef4"
+  integrity sha512-8C0KmNRLc2MpE/3l3vYcdAB8czcvvSliNfv5OpadJOa5+ojfM44Blbk/rx3ZbGCzVzFF/MpuGYHyHSlR7/D8GQ==
 
 mimic-fn@^2.1.0:
   version "2.1.0"
