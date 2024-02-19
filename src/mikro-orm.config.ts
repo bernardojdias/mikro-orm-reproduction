@@ -19,7 +19,6 @@ export default defineConfig({
 	debug: true,
 	extensions: [EntityGenerator, Migrator],
 	migrations: {
-		tableName: "sa_migrations",
 		snapshot: false,
 		emit: "ts",
 		path: path.join(__dirname, "migrations"),
